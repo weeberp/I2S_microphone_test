@@ -10,3 +10,5 @@
 | Feather 32u4 |         | x          |             |
 | STM32L476    |         | x          |             |
 | nRF52        |         |            | x           |
+
+Feather M0 use SAMD 1.6.15 board package.
