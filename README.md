@@ -1,6 +1,16 @@
 # I2S Microphone Test
 
+This is an test example showing how to read audio from an I2S microphone (Tested with SPH0645 and ICS-43432).
 
+The signal amplitude is then compared to a defined threshold :
+
+```
+#define THRESHOLD 60000
+```
+
+If the audio amplitude exceeds the threshold, the LED_BUILTIN will light up.
+
+Try claping your hands near the microphone.
 
 # Tests
 
