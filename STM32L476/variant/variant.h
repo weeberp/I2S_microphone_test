@@ -60,6 +60,7 @@ extern "C"
  *        Pins
  *----------------------------------------------------------------------------*/
 
+//MODIFIED FOLLOWING BLOCK
 // Number of pins defined in PinDescription array
 #define PINS_COUNT           (26u)
 #define NUM_DIGITAL_PINS     (20u)
@@ -67,6 +68,7 @@ extern "C"
 #define NUM_ANALOG_INPUTS    (6u)
 #define NUM_ANALOG_OUTPUTS   (0u)
 
+//MODIFIED FOLLOWING LINE
 #define analogInputToDigitalPin(p)  ((p < 6u) ? (p) + 20u : -1)
 
 // LEDs
@@ -101,7 +103,6 @@ static const uint8_t BUTTON = PIN_BUTTON;
 /*
  * Serial interfaces
  */
-
 #define SERIAL_INTERFACES_COUNT 1
 
 #define PIN_SERIAL_RX        (0ul)
@@ -137,9 +138,10 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 /*
  * I2S Interfaces
  */
-
+//ADDED FOLLOWING LINE
 #define I2S_INTERFACES_COUNT 1
-
+	
+//ADDED FOLLOWING BLOCK
 #define PIN_I2S_SD          (26u)
 #define PIN_I2S_SCK         (25u)
 #define PIN_I2S_FS          (24u)
