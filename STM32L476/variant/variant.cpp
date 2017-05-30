@@ -69,8 +69,9 @@ extern const PinDescription g_APinDescription[NUM_TOTAL_PINS] =
 
     // 22 - Button 
     { GPIOC, GPIO_PIN_MASK(GPIO_PIN_PC13), GPIO_PIN_PC13,           (PIN_ATTR_EXTI),                               PWM_INSTANCE_NONE,  PWM_CHANNEL_NONE, ADC_INPUT_NONE },
-
-	// 23..26 - I2S pins
+	
+	//ADDED FOLLOWING BLOCK
+    // 23..26 - I2S pins
 	{ GPIOB, GPIO_PIN_MASK(GPIO_PIN_PB8),  GPIO_PIN_PB8 },    		//MCLK
 	{ GPIOB, GPIO_PIN_MASK(GPIO_PIN_PB9),  GPIO_PIN_PB9 },    		//FS
 	{ GPIOB, GPIO_PIN_MASK(GPIO_PIN_PB10), GPIO_PIN_PB10 },   		//SCK
@@ -99,6 +100,7 @@ extern const stm32l4_i2c_pins_t g_WirePins = { GPIO_PIN_PB8_I2C1_SCL, GPIO_PIN_P
 extern const unsigned int g_WireInstance = I2C_INSTANCE_I2C1;
 extern const unsigned int g_WireMode = I2C_MODE_RX_DMA;
 
+//ADDED FOLLOWING BLOCK
 extern const stm32l4_sai_pins_t g_SAIPins = { GPIO_PIN_PB10_SAI1_SCK_A, GPIO_PIN_PB9_SAI1_FS_A, GPIO_PIN_PC3_SAI1_SD_A, GPIO_PIN_PB8_SAI1_MCLK_A };
 extern const unsigned int g_SAIInstance = SAI_INSTANCE_SAI1A;
 extern const unsigned int g_SAIMode = SAI_MODE_DMA | SAI_MODE_DMA_SECONDARY;
