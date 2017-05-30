@@ -18,7 +18,8 @@ Try claping your hands near the microphone.
 | ------------ | ------- | ---------- | ----------- |
 | Feather M0   | x       |            |             |
 | Feather 32u4 |         | x          |             |
-| STM32L476    |         | x          |             |
+| STM32L476    | x       |            |             |
 | nRF52        |         |            | x           |
 
-Feather M0 use SAMD 1.6.15 board package.
+Feather M0 tested with SAMD 1.6.15 board package.
+STM32L476 tested with grumpyoldpizza 0.0.25 modified board package.
