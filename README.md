@@ -21,5 +21,5 @@ Try claping your hands near the microphone.
 | STM32L476    | x       |            |             |
 | nRF52        |         |            | x           |
 
-Feather M0 tested with SAMD 1.6.15 board package.
-STM32L476 tested with grumpyoldpizza 0.0.25 modified board package.
+* Feather M0 tested with SAMD 1.6.15 board package.
+* STM32L476 tested with grumpyoldpizza 0.0.25 modified board package (see STM32L476/variant).
